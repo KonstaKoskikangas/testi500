@@ -1,0 +1,117 @@
+/*Kaikki tyylit tänne*/
+
+
+body {
+    background-color: aqua;
+
+}
+/*Nav alkaa*/
+
+
+#eka h1  {
+color: red;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-align: center;
+text-shadow: 5px 5px 10px black;
+}
+#eka p {
+    color: red;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;    
+}
+
+#eka img {
+    max-width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#eka img:hover {
+    transform: scaleX(-1);
+}
+
+#toka h1  {
+    color: green;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+#toka p {
+    color: green;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+#toka img {
+    max-width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#toka img:hover {
+    transform: scaleX(-1);
+}
+
+#kolmas h1  {
+    color: orange;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    }
+    #kolmas p {
+        color: orange;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    }
+
+    #kolmas img {
+        max-width: 50%;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+
+    #kolmas img:hover {
+        transform: scaleX(-1);
+    }
+
+nav {
+    padding: 0;
+    margin: 0;
+}
+
+    nav ul {
+        list-style: none; 
+        position: fixed;
+        top: 0;
+        box-shadow: 20px 20px 50px black;
+        justify-content: center;  
+    }
+
+    nav ul li {
+        background-color: chartreuse;
+        text-align: center;
+        display: inline   
+    }
+
+    nav ul li a:hover {
+        cursor: not-allowed;
+    }
+    /*Nav päättyy*/
